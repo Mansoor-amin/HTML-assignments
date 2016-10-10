@@ -1,0 +1,31 @@
+
+.header{
+    height: 50px;
+    width: 1400px;
+    background-color: seagreen
+}
+
+h2,h3{text-align: left
+margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif
+}
+
+a{color: white;font-family: sans-serif;margin-right: 10px}
+#links{height: 50px;width: 500px;float: right;text-align: right;margin-top: 10px}
+.heading{height: 50px;width: 500px;float: left}
+.subdiv{width: 445px;height: 250px;float: left;padding-right: 10px;padding-left: 10px}
+.head{
+    height: 40px;
+    width: 445px;
+    background-color: seagreen
+}
+#one{height: 40px;width: 1400px;background-color: mediumseagreen;font-family: sans-serif;color: darkgreen}
+#two{height: 40px;width: 1400px;background-color: seagreen;font-family: sans-serif;color: darkgreen}
+#three{height: 40px;width: 1400px;background-color: forestgreen;font-family: sans-serif;color: darkgreen}
+#four{height: 40px;width: 1400px;background-color: green;font-family: sans-serif;color: greenyellow}
+#five{height: 40px;width: 1400px;background-color: darkgreen;font-family: sans-serif;color: greenyellow}
+.table{height: 40px;width: 1400px;background-color: mediumseagreen;font-family: sans-serif;color: white;text-align: center}

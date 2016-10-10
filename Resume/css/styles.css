@@ -1,0 +1,589 @@
+html {
+    background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/*navigation bar*/
+nav {
+   width: 1024px;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 30px auto;
+    padding: 30px 0;
+
+
+}
+
+nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: rgba(0, 35, 122, 0.7);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 37, 125, 0.91);
+}
+
+/* main sections */
+.sec {
+
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.sec-bag {
+    position: relative;
+    z-index: 1;
+}
+
+.f-sec-bag {
+    position: absolute;
+    z-index: 1;
+	margin: 0 auto;
+}
+/*triangles*/
+.triangle, .triangle--1, .triangle--2, .triangle--3, .triangle--4, .triangle--5 {
+	border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-style: solid;
+    border-width: 250px 550px 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -webkit-filter: drop-shadow(-12px 10px 10px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(-12px 10px 10px rgba(0, 0, 0, 0.4));
+}
+.triangle--1 {
+    border-top-color: rgba(1, 105, 245, 0.31);
+    top: -100px;
+    z-index: 2;
+	margin: 0 auto;
+}
+
+.triangle--2 {
+    border-top-color: rgba(2, 112, 245, 0.30);
+    top: -150px;
+    z-index: 3;
+	margin: 0 auto;
+}
+
+.triangle--3 {
+    border-top-color: rgba(2, 135, 245, 0.31);
+    top: -200px;
+    z-index: 4;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+.about {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+    color: rgba(0, 37, 125, 0.91);
+
+}
+
+.about .pic {
+    width: 30%;
+    margin: 0 auto;
+    float: left;
+    margin-right: 0;
+    margin-left: 50px;
+}
+.about .pic img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border: 5px solid rgba(0, 35, 122, 0.60);
+    border-radius: 150px;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+.about .pic img:hover {
+    border: 5px solid rgba(0, 39, 200, 0.41);
+}
+
+.about .abu {
+    width: 60%;
+    float: right;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+
+
+}
+
+h1 {
+    font-size: 2em;
+}
+h1 span {
+    font-size: .6em;
+}
+.abu p {
+    text-align: justify;
+    width: 60%;
+}
+
+
+.edu {
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.container {
+    width: 90%;
+    margin: 40px auto;
+
+
+}
+
+
+.exp {
+    width: 1024px;
+    margin:  0 auto;
+    margin-top: 50px;
+
+}
+.edu h2 , .exp h2 , #contact h2{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    color: rgba(0, 35, 122, 0.7);
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.edu h2:hover , .exp h2:hover , #contact h2:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 37, 125, 0.91);
+}
+
+#contact h2 {
+    margin-bottom: 60px;
+}
+
+/* Swatch Styles */
+/* ---------------------------------------- */
+.swatch-container {
+    -moz-perspective: 1000;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+}
+
+.swatch-container:hover .inner {
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.swatch-container .inner {
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.swatch-container,
+.front,
+.back {
+    width: 220px;
+    height: 266px;
+
+
+
+}
+
+.front,
+.back {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+    background: linear-gradient(to right top, rgba(142, 68, 173, 0.20) 0%, rgba(52, 166, 235, 0.20) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.back {
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: #fafafa;
+    padding: 10px;
+    width: 200px;
+    height: 246px;
+    background: linear-gradient(to right top, rgba(142, 68, 173, 0.20) 0%, rgba(52, 166, 235, 0.20) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+footer.details {
+    position: absolute;
+    bottom: 0;
+    height: 26%;
+    width: 90%;
+    background-color: #fff;
+    color: rgba(0, 37, 125, 0.91);
+    padding: 5%;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+footer.details span {
+    font-weight: normal;
+    display: block;
+}
+
+.back p {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: rgba(0, 37, 125, 0.91);
+}
+.back ul {
+    display: block;
+    margin: 0 auto;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.back li {
+    font-weight: 800;
+    padding: 10px 5px;
+    border-bottom: 1px solid #eee;
+    color: rgba(0, 35, 122, 0.7);
+    font-size: 12px;
+    cursor: text;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.back li:hover {
+    color: #444;
+}
+.back li:last-child {
+    border-bottom: none;
+}
+.back li span {
+    font-weight: normal;
+    text-transform: uppercase;
+    float: right;
+}
+
+
+/*portfolio*/
+
+.fond{
+    position:relative;
+    padding-top:45px;
+    top:0;left:0;
+    right:0;bottom:0;
+}
+
+
+.carre_couleur
+{
+    width:200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    background: linear-gradient(to right top, rgba(142, 68, 173, 0.20) 0%, rgba(52, 166, 235, 0.20) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+
+}
+
+.ret img {
+    padding-top: 25px;
+}
+
+.base_hov .retract
+{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform-origin: 50% 20%;
+    -webkit-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform-origin: 50% 20%;
+    -moz-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform-origin: 50% 20%;
+    -ms-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform-origin: 50% 20%;
+    transform: scale(1);
+    width:200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    left:0;
+    background: linear-gradient(to right top, rgb(142, 68, 173) 0%, rgb(52, 166, 235) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+.base_hov:hover .retract
+{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(0.6);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(0.6);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(0.6);
+    transition: all 200ms ease-in;
+    transform: scale(0.6);
+    background: linear-gradient(to right top, rgba(142, 68, 173, 0.06) 0%, rgba(52, 166, 235, 0.05) 100%);
+}
+.acced
+{
+    width: 180px;
+    padding:10px;
+    bottom:0;
+    position:absolute;
+    z-index: 1;
+    text-align: left;
+}
+.big_acced
+{
+    color:#ffffff;
+    font-size:25px;
+    font-weight: 400;
+    font-family:'Roboto';
+    color: rgba(0, 35, 122, 0.7);
+}
+.middle_acced
+{
+    color:#ffffff;
+    font-size:15px;
+    font-weight: 400;
+    font-family:'Roboto';
+}
+
+
+
+/*section contact*/
+
+#contact {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.c-form {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.i-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.i-box input[type=text] , .i-box input[type=email] , .i-box input[type=number]{
+    width: 100%;
+    height: 60px;
+    line-height: 1.5em;
+    padding-left: 10px;
+    font-size: 1.5em;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+    color: rgba(0, 35, 122, 0.60);
+    background: transparent;
+}
+.i-box input[type=text] {
+    border-top: 1px solid #cdcdcd;
+}
+
+.i-box textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 1.5em;
+    padding-left: 10px;
+    font-size: 2.6em;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+    color: rgba(0, 35, 122, 0.60);
+    background: transparent;
+
+}
+
+.i-box input[type=submit] {
+    display: block;
+    padding: 14.5px 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    color: rgba(0, 35, 122, 0.60);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+}
+
+.i-box input[type=submit]:hover , .i-box input[type=submit]:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 37, 125, 0.91);
+}
+
+.i-box input[type=text]:focus , .i-box input[type=email]:focus , .i-box input[type=number]:focus , .i-box textarea:focus {
+    outline: none;
+    background: rgba(235, 235, 235, 0.11);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+
+
+/*footer*/
+
+footer {
+    width: 1024px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+}
+
+.f-sec-main {
+    width: 1024px;
+    padding: 10px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.f-sec {
+    display: block;
+    float: right;
+    width: 30%;
+    margin: 0 10px;
+    padding: 5px;
+    color: rgba(0, 47, 125, 0.81);
+}
+
+.f-sec h2 , .f-sec p {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+
+.social {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 5px 5px 20px;
+}
+
+.social ~ a img {
+    display: block;
+    border: none;
+}
+
+.icons a {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 0 5px 5px 0;
+}
+
+.icons a, .icons a:before {
+    transition: all linear 300ms;
+}
+
+.icons a:hover:before {
+    opacity: 1;
+    top: -20%;
+}
+
+span:hover a {
+    opacity: 0.35;
+}
+
+
+span a:hover {
+    opacity: 1;
+}
+
+.icons a img:first-child,
+span:hover a img:first-child + img,
+span:hover a:hover img:first-child {
+    display: none;
+}
+
+span:hover a img:first-child,
+span:hover a:hover img:first-child + img {
+    display: block;
+}
+
+
+
+
+
+.copy-info{
+    width: 95%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin: 20px auto;
+    color: rgba(0, 37, 125, 0.91);
+    font-size: .6em;
+}
